@@ -1,0 +1,52 @@
+# Build artifacts
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio stuff
+.vs/
+.vscode/
+
+# Configuration files (secrets)
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Environment & publish files
+.env
+.env.*
+launchSettings.json
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Resharper & Rider
+_ReSharper*/
+.idea/
+*.DotSettings.user
+
+# Backup files
+*~
+
+# NPM / frontend leftovers
+node_modules/
+wwwroot/dist/
